@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-02-08T12:00:00Z",
+  "incident_id": "28b16c33-1cf1-4ea5-9a67-50ed16adf231",
+  "carrier_id": "carrier-demo-001",
+  "vehicle": {
+    "adc_vehicle_id": "veh-123",
+    "samsara_vehicle_id": "sm-veh-987"
+  },
+  "capture_window": {
+    "start_utc": "2026-02-08T10:00:00Z",
+    "end_utc": "2026-02-08T13:00:00Z",
+    "request_reason": "incident_start_default_window"
+  },
+  "source_system": "samsara",
+  "artifacts": {
+    "artifact_id": "a1a51593-8b06-463c-a37e-62b710e6c328",
+    "related_artifact_ids": []
+  },
+  "data": {
+    "snapshots": [
+      {
+        "snapshot_time_utc": "2026-02-08T10:00:00Z",
+        "odometer_miles": 120345.6,
+        "engine_hours": 5432.1,
+        "fuel_percent": 65.0,
+        "engine_rpm": 1500.0,
+        "speed_mph": 60.0,
+        "dtc_codes_present": false,
+        "source": "samsara_vehicle_state"
+      },
+      {
+        "snapshot_time_utc": "2026-02-08T10:30:00Z",
+        "odometer_miles": 120346.1,
+        "engine_hours": 5432.120000000001,
+        "fuel_percent": 64.0,
+        "engine_rpm": 1500.0,
+        "speed_mph": 60.0,
+        "dtc_codes_present": false,
+        "source": "samsara_vehicle_state"
+      },
+      {
+        "snapshot_time_utc": "2026-02-08T11:00:00Z",
+        "odometer_miles": 120346.6,
+        "engine_hours": 5432.14,
+        "fuel_percent": 63.0,
+        "engine_rpm": 1500.0,
+        "speed_mph": 60.0,
+        "dtc_codes_present": false,
+        "source": "samsara_vehicle_state"
+      }
+    ],
+    "summary": {
+      "snapshots_count": 3,
+      "first_snapshot_time_utc": "2026-02-08T10:00:00Z",
+      "last_snapshot_time_utc": "2026-02-08T11:00:00Z"
+    }
+  }
+}

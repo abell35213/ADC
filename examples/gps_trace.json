@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-02-08T12:00:00Z",
+  "incident_id": "28b16c33-1cf1-4ea5-9a67-50ed16adf231",
+  "carrier_id": "carrier-demo-001",
+  "vehicle": {
+    "adc_vehicle_id": "veh-123",
+    "samsara_vehicle_id": "sm-veh-987"
+  },
+  "capture_window": {
+    "start_utc": "2026-02-08T10:00:00Z",
+    "end_utc": "2026-02-08T13:00:00Z",
+    "request_reason": "incident_start_default_window"
+  },
+  "source_system": "samsara",
+  "artifacts": {
+    "artifact_id": "1c1e866a-8949-4928-b1ef-c8f0981d4c52",
+    "related_artifact_ids": []
+  },
+  "data": {
+    "points": [
+      {
+        "point_time_utc": "2026-02-08T10:00:00Z",
+        "lat": 33.52,
+        "lon": -86.8,
+        "speed_mph": 55,
+        "heading_degrees": 180.0,
+        "source": "samsara_gps"
+      },
+      {
+        "point_time_utc": "2026-02-08T10:10:00Z",
+        "lat": 33.521,
+        "lon": -86.801,
+        "speed_mph": 56,
+        "heading_degrees": 180.0,
+        "source": "samsara_gps"
+      },
+      {
+        "point_time_utc": "2026-02-08T10:20:00Z",
+        "lat": 33.522000000000006,
+        "lon": -86.80199999999999,
+        "speed_mph": 57,
+        "heading_degrees": 180.0,
+        "source": "samsara_gps"
+      },
+      {
+        "point_time_utc": "2026-02-08T10:30:00Z",
+        "lat": 33.523,
+        "lon": -86.803,
+        "speed_mph": 58,
+        "heading_degrees": 180.0,
+        "source": "samsara_gps"
+      },
+      {
+        "point_time_utc": "2026-02-08T10:40:00Z",
+        "lat": 33.524,
+        "lon": -86.804,
+        "speed_mph": 59,
+        "heading_degrees": 180.0,
+        "source": "samsara_gps"
+      }
+    ],
+    "summary": {
+      "points_count": 5,
+      "start_point_time_utc": "2026-02-08T10:00:00Z",
+      "end_point_time_utc": "2026-02-08T10:40:00Z",
+      "approx_distance_miles": 4.2
+    }
+  }
+}

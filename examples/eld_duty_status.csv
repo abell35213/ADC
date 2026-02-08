@@ -1,0 +1,5 @@
+# schema_version: 1.0
+# incident_id: 28b16c33-1cf1-4ea5-9a67-50ed16adf231
+# capture_window_utc: 2026-02-08T10:00:00Z to 2026-02-08T13:00:00Z
+event_id,event_time_utc,event_type,status,lat,lon,location_source,odometer_miles,engine_hours,record_origin,notes_present
+eld-evt-1,2026-02-08T10:05:00Z,duty_status_change,DRIVING,33.5207,-86.8025,gps,120345.6,5432.1,eld,False

@@ -1,0 +1,7 @@
+# schema_version: 1.0
+# incident_id: 28b16c33-1cf1-4ea5-9a67-50ed16adf231
+# capture_window_utc: 2026-02-08T10:00:00Z to 2026-02-08T13:00:00Z
+custody_time_utc,actor_type,actor_id,action,artifact_id,filename,detail
+2026-02-08T12:00:00Z,integration,samsara-adapter,captured,1c1e866a-8949-4928-b1ef-c8f0981d4c52,06_GPS_Trace.json,Captured from Samsara and stored in vault.
+2026-02-08T12:00:10Z,system,hash-service,hashed,1c1e866a-8949-4928-b1ef-c8f0981d4c52,06_GPS_Trace.json,Computed SHA-256 integrity value.
+2026-02-08T12:05:00Z,export_service,court-exporter,export_generated,,ADC_Court_Package.zip,Court package generated and stored.

@@ -1,0 +1,7 @@
+# schema_version: 1.0
+# incident_id: 28b16c33-1cf1-4ea5-9a67-50ed16adf231
+# capture_window_utc: 2026-02-08T10:00:00Z to 2026-02-08T13:00:00Z
+snapshot_time_utc,odometer_miles,engine_hours,fuel_percent,engine_rpm,speed_mph,dtc_codes_present,source
+2026-02-08T10:00:00Z,120345.6,5432.1,65.0,1500.0,60.0,False,samsara_vehicle_state
+2026-02-08T10:30:00Z,120346.1,5432.120000000001,64.0,1500.0,60.0,False,samsara_vehicle_state
+2026-02-08T11:00:00Z,120346.6,5432.14,63.0,1500.0,60.0,False,samsara_vehicle_state

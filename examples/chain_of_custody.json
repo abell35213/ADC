@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-02-08T12:00:00Z",
+  "incident_id": "28b16c33-1cf1-4ea5-9a67-50ed16adf231",
+  "carrier_id": "carrier-demo-001",
+  "vehicle": {
+    "adc_vehicle_id": "veh-123",
+    "samsara_vehicle_id": "sm-veh-987"
+  },
+  "capture_window": {
+    "start_utc": "2026-02-08T10:00:00Z",
+    "end_utc": "2026-02-08T13:00:00Z",
+    "request_reason": "incident_start_default_window"
+  },
+  "source_system": "adc",
+  "artifacts": {
+    "artifact_id": "098210a1-b2a8-42ad-8209-ea0975de0d01",
+    "related_artifact_ids": [
+      "8bc49300-0dc7-43f9-8a0b-828bb438c4bb",
+      "1c1e866a-8949-4928-b1ef-c8f0981d4c52"
+    ]
+  },
+  "data": {
+    "entries": [
+      {
+        "custody_time_utc": "2026-02-08T12:00:00Z",
+        "actor_type": "integration",
+        "actor_id": "samsara-adapter",
+        "action": "captured",
+        "artifact_id": "1c1e866a-8949-4928-b1ef-c8f0981d4c52",
+        "filename": "06_GPS_Trace.json",
+        "detail": "Captured from Samsara and stored in vault."
+      },
+      {
+        "custody_time_utc": "2026-02-08T12:00:10Z",
+        "actor_type": "system",
+        "actor_id": "hash-service",
+        "action": "hashed",
+        "artifact_id": "1c1e866a-8949-4928-b1ef-c8f0981d4c52",
+        "filename": "06_GPS_Trace.json",
+        "detail": "Computed SHA-256 integrity value."
+      },
+      {
+        "custody_time_utc": "2026-02-08T12:05:00Z",
+        "actor_type": "export_service",
+        "actor_id": "court-exporter",
+        "action": "export_generated",
+        "artifact_id": null,
+        "filename": "ADC_Court_Package.zip",
+        "detail": "Court package generated and stored."
+      }
+    ]
+  }
+}

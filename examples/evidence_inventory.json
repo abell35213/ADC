@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-02-08T12:00:00Z",
+  "incident_id": "28b16c33-1cf1-4ea5-9a67-50ed16adf231",
+  "carrier_id": "carrier-demo-001",
+  "vehicle": {
+    "adc_vehicle_id": "veh-123",
+    "samsara_vehicle_id": "sm-veh-987"
+  },
+  "capture_window": {
+    "start_utc": "2026-02-08T10:00:00Z",
+    "end_utc": "2026-02-08T13:00:00Z",
+    "request_reason": "incident_start_default_window"
+  },
+  "source_system": "samsara",
+  "artifacts": {
+    "artifact_id": "48860bf5-dffc-4366-8516-48cc0db32489",
+    "related_artifact_ids": []
+  },
+  "data": {
+    "items": [
+      {
+        "evidence_type": "eld_duty_status",
+        "source_system": "samsara",
+        "capture_window": {
+          "start_utc": "2026-02-08T10:00:00Z",
+          "end_utc": "2026-02-08T13:00:00Z"
+        },
+        "status": "captured",
+        "captured_at_utc": "2026-02-08T12:00:00Z",
+        "artifact_id": "8bc49300-0dc7-43f9-8a0b-828bb438c4bb",
+        "filename": "06_ELD_DutyStatus.json",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unavailable": {
+          "reason_code": null,
+          "reason_detail": null
+        }
+      },
+      {
+        "evidence_type": "dashcam_video_driver",
+        "source_system": "samsara",
+        "capture_window": {
+          "start_utc": "2026-02-08T10:00:00Z",
+          "end_utc": "2026-02-08T13:00:00Z"
+        },
+        "status": "unavailable",
+        "captured_at_utc": null,
+        "artifact_id": null,
+        "filename": null,
+        "sha256": null,
+        "unavailable": {
+          "reason_code": "MEDIA_NOT_AVAILABLE",
+          "reason_detail": "Samsara reported no driver-facing media for the requested window."
+        }
+      }
+    ]
+  }
+}

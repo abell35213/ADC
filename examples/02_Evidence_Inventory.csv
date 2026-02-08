@@ -1,0 +1,6 @@
+# schema_version: 1.0
+# incident_id: 28b16c33-1cf1-4ea5-9a67-50ed16adf231
+# capture_window_utc: 2026-02-08T10:00:00Z to 2026-02-08T13:00:00Z
+evidence_type,source_system,capture_window_start_utc,capture_window_end_utc,status,captured_at_utc,artifact_id,filename,sha256,unavailable_reason_code,unavailable_reason_detail
+eld_duty_status,samsara,2026-02-08T10:00:00Z,2026-02-08T13:00:00Z,captured,2026-02-08T12:00:00Z,8bc49300-0dc7-43f9-8a0b-828bb438c4bb,06_ELD_DutyStatus.json,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,
+dashcam_video_driver,samsara,2026-02-08T10:00:00Z,2026-02-08T13:00:00Z,unavailable,,,,,MEDIA_NOT_AVAILABLE,Samsara reported no driver-facing media for the requested window.

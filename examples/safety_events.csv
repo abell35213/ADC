@@ -1,0 +1,5 @@
+# schema_version: 1.0
+# incident_id: 28b16c33-1cf1-4ea5-9a67-50ed16adf231
+# capture_window_utc: 2026-02-08T10:00:00Z to 2026-02-08T13:00:00Z
+event_id,event_time_utc,event_type,severity,metric,amount,lat,lon,location_source,source
+se-1,2026-02-08T10:12:00Z,hard_brake,high,g_force,0.48,33.5212,-86.8012,gps,samsara_safety
